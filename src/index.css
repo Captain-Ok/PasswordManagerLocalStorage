@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer components {
+    .Table{
+        @apply py-2 border border-white text-center min-w-42;
+    }
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear,
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-password-toggle-button {
+    display: none;
+}
